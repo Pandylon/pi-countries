@@ -1,0 +1,12 @@
+.conteiner{
+
+
+color: #0b5850;
+}
+
+.conteiner select{
+    color: #0b5850;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+}

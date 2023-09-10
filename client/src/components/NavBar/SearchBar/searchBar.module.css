@@ -1,0 +1,44 @@
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+   
+    
+   
+   }
+
+
+  
+  
+  .inputs {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background:#142644;
+    color: #63717f;
+    border: none;
+    mix-blend-mode:luminosity;
+   
+   
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-image:linear-gradient( to right,#142644,#0b5850);
+    color:  #a8a1a5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color:#c4cfe1;
+    color: #f78888;
+    font-weight: bold;
+  }

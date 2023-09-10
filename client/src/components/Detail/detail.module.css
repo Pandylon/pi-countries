@@ -1,0 +1,54 @@
+.conteiner{
+    display: flex;
+    flex-wrap: wrap;
+   
+    gap: 10px;
+    background-image: url("../../assets/AdobeStock_274847238.jpeg");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    min-width: 100vh;
+
+}
+.conteiner img{
+    display: block;
+   
+  
+
+} 
+
+
+
+
+
+  .detail div {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+  
+  .detail p {
+   display: block;
+    margin-left: 30px;
+    font-size: 30px;
+    color: #0b5850;
+   
+
+  }
+  .info{
+    background:#e2d2b0 ;
+    margin: 20px;
+    border-radius: 10px;
+  }
+ 
+  .cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+   
+    
+} 
+.cardContainer div{
+margin: 5px;
+}

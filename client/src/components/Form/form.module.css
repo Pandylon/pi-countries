@@ -1,0 +1,92 @@
+.container {
+    
+ 
+  justify-content: space-between;
+  gap: 20px;
+  background-image: url("../../assets/AdobeStock_248762684.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  color:#142644;
+}
+.form {
+ /* background-color: rgb(44, 88, 130);*/
+    width:100%;
+    max-width:300px;
+    padding:10px;
+  
+    border-radius:10px;
+    margin-left: 60%;
+   
+    
+}
+.title {
+  font-size: 30px;
+  margin-bottom: 50px;
+  
+}
+
+.form label{ 
+  display:block;
+  font-weight:bold;
+}
+
+.form input{
+  padding:5px;
+  width:80%;
+  margin:16px 0;
+  border: none;
+ 
+
+}
+.form select{
+  padding:5px;
+  width:60%;
+  margin:16px 0;
+  border: none;
+ 
+}
+
+
+  .submitBtn {
+    display: block;
+    margin-left: auto;
+    padding: 10px 25px;
+    border: none;
+   
+    background-image:linear-gradient( to right,#142644,#0b5850);
+    color: #a8a1a5;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  
+  .submitBtn:hover {
+    background-color:#9B786F;
+    transform: translateY(-2px);
+  }
+  .selectCountry{
+    display:flex;
+    
+   
+  }
+  .selectCountry p{
+   
+   margin: 3px;
+   width: 50px;
+   border: #0b5850;
+   width: 70%;
+  }
+  .selectCountry button{
+    border: none;
+    background: none;
+    color: #0b5850;
+  }
+
+
+
+
+
+

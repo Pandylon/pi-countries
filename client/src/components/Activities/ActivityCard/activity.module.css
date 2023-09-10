@@ -1,0 +1,112 @@
+.cardContainer{
+    display: grid;
+   /* grid-template-columns: 300px;
+    /*grid-template-rows: 210px 210px 80px;*/
+    grid-template-areas: "cardsCountries" "activity" "stats" ;
+    border-radius: 18px;
+    background-color: rgba(255, 255, 255, 0.2);
+   /* background-color: azure;*/
+    box-shadow: 5px 5px 15px rgba(0, 0,0, 1);
+    transition: transform 0.2s ease-in-out;
+    text-align: center;
+    color: #142644;
+    font-weight: bold;
+    font-family: cursive;
+
+   
+}
+.cardContainer:hover {
+    transform: translateY(-5px);
+}
+
+
+.cardactivity{
+    grid-area: activity;
+    margin: 25px;
+}
+
+.cardactivity p{
+color: rgb(255,7,110);
+font-size: 15px;
+}
+
+.cardactivity h2{
+    margin-top: 0px;
+    font-size: 28px;
+}
+
+.cardStats{
+    grid-area:stats ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: #e85f29;
+  
+
+
+}
+
+ .stats{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding: 10px;
+}
+.type{
+    font-size: xx-small;
+}
+.cardsCountries{
+    grid-area: cardsCountries;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: #e85f29;
+    
+}
+.cardsCountries p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding: 10px;
+    font-size: x-small;
+    
+    
+}
+ 
+
+
+
+
+
+/*.cardContainer{
+    color: #142644;
+    text-align: center;
+    /*padding: 20px 35px;*/
+  /*  background-color: rgba(255, 255, 255, 0.2);
+    border:1px solid rgba(255,255 ,255,0.3);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   
+    margin-bottom: 20px;
+    transition: transform 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardContainer:hover {
+    transform: translateY(-5px);
+}
+  
+
+.cardInfo {
+    font-size: 16px;
+    
+}*/

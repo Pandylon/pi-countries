@@ -1,0 +1,24 @@
+.container{
+    background-image: url("../../assets/AdobeStock_274847238.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    min-width: 100vh;
+
+   
+      
+}
+
+.filters{
+    display: flex; /* Esto hace que los select estén uno al lado del otro */
+    justify-content: space-between; /* Espaciado entre los select */
+    align-items: center;
+    border-radius: 5px;
+    color: #0b5850;
+    border: none;
+    margin: 5px;
+    margin-left: 35%;
+}
+
+

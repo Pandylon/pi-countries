@@ -1,0 +1,35 @@
+.cardContainer {
+    color: #142644;
+    text-align: center;
+    /*padding: 20px 35px;*/
+    background-color: rgba(255, 255, 255, 0.2);
+    border:1px solid rgba(255,255 ,255,0.3);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   
+    margin-bottom: 20px;
+    transition: transform 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+  }
+
+.cardContainer:hover {
+    transform: translateY(-5px);
+}
+  
+
+  
+  
+.cardInfo {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+  
+.cardImage {
+    margin-top: 10px;
+    border-radius: 5px;
+    object-fit: cover;
+    width: 80%;
+    height:100px;
+}
+
