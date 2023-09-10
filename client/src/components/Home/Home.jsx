@@ -15,9 +15,7 @@ export default function Home() {
   const dispatch = useDispatch();
   const countries = useSelector(state => state.countries)
 
-  
 
- 
 
   useEffect(() => {
  dispatch(getCountries());
@@ -25,24 +23,6 @@ export default function Home() {
   console.log("se desmonto el componente")
  }
 }, [dispatch])
-
-/*const handleChangeOrder=(event)=>{
-  const selectedValue= event.target.value;
-  dispatch(orderCards(selectedValue))
-
- }
-
- const handlerFilterByContinent = (event) => {
-  const continent = event.target.value;
-  dispatch(filterByContinent(continent))
-}
-const handlerFilterBypopulation = (event) => {
-  const population = event.target.value;
-  dispatch(filterBypopulation(population))
-}*/
-const paginato=(event)=>{
- dispatch(page())
-}
 
   return (
     <div className={style.container}>

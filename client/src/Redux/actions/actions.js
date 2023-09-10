@@ -2,7 +2,7 @@ import { GET_COUNTRIES,GET_COUNTRY,
          GET_COUNTRIES_BY_NAME,ORDER_BY_NAME,
          FILTER_BY_CONTINENT, ORDER_BY_POPULATION,
          GET_ACTIVITIES,FILTER_BY_ACTIVITY,
-          ORDER_BY_DIFFICULTY} from "./types";
+         ORDER_BY_DIFFICULTY} from "./types";
     
 import axios from "axios";
 

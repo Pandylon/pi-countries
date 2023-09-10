@@ -37,7 +37,7 @@ export default function Activity({name,difficulty,duration,season,countries}) {
     <div className={style.cardsCountries}> 
          
      
-          {countries.map((country) => (
+          {countries?.map((country) => (
             
               <p key={country.id}>{country.name}</p>
              

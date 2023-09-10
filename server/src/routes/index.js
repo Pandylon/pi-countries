@@ -7,12 +7,12 @@ const getByName=require("../controllers/getByName")
 
 
 
-//const { Router } = require("express");
 
-//const router = Router();
-//router.get("/",getCountries)
+
+
+router.get("/",getCountries)
 router.get("/:idPais",getCountrById)
-router.get("/",getByName)
+//router.get("/",getByName)
 
 
 module.exports = router;

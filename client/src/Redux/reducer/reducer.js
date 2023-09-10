@@ -8,8 +8,7 @@ filters:[],
 country: {},
 activities:{},
 
-//currentPage: 1, // Página actual
-//countriesPerPage: 10, // Cantidad de países por página
+
 }
 
 
@@ -29,11 +28,7 @@ switch(action.type){
       country: action.payload,
       } 
 
-  case GET_COUNTRY: 
-  return {
-    ...state, 
-      country: action.payload,
-      } 
+
   
 
       case GET_COUNTRIES_BY_NAME: 
@@ -170,10 +165,5 @@ export default rootReducer;
 
 
 
-/*    case SET_CURRENT_PAGE :
-        return{
-          ...state,
-          currentPage:action.payload
-        }
-*/
+
 

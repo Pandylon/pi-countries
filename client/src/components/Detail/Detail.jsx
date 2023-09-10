@@ -9,7 +9,7 @@ import axios from "axios";
 import Activity from "../Activities/ActivityCard/Activity";
 
 
-//"/detail/:id" --> 55
+
 
 export default function Detail() {
   const { id } = useParams(); 
@@ -20,15 +20,15 @@ export default function Detail() {
 
   useEffect(() => {
     dispatch(getCountry(id));
-   
-   
-  
+
+
+    
     // desmontaje
     return () => {
       // ejecutar cuando se desmonte
       console.log("Me desmonto, adios!");
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    
   }, [id]);
 
   return (
