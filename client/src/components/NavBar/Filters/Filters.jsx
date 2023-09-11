@@ -36,7 +36,7 @@ export default function Filters() {
         
       <div >
         <select onChange={handleChangeOrder}>
-          
+        <option value="sort">Sort</option>
           <option value='asc'>A-Z</option>
           <option value="des">Z-A</option>
         </select>
@@ -54,8 +54,8 @@ export default function Filters() {
            
         <select onChange={handlerFilterBypopulation}>
           
-          <option value='MAY'>Mayor poblacion</option>
-          <option value="MEN">menor poblacion</option>
+          <option value='MAY'>Larger population</option>
+          <option value="MEN">Smaller population</option>
         </select>
 </div>
 

@@ -14,7 +14,7 @@ export default function LandyngPage() {
      
    
      
-   <Link className={style.link} to="/home"><p className={style.butt}>GO</p></Link>
+   <Link className={style.link} to="/home"><p className={style.butt}>Clic me!</p></Link>
     
     </div>
     

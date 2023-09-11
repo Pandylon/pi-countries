@@ -31,16 +31,16 @@ export default function Activityfilters() {
         
       <div >
         <select onChange={handleChangeOrder}>
-          
+          <option value='SOR'>Sort by activity</option>
           <option value='asc'>A-Z</option>
           <option value="des">Z-A</option>
         </select>
        </div>
        <div >
         <select onChange={handlerFilterByDifficulty}>
-          
-          <option value='MAY'>Mayor difficulty</option>
-          <option value="MEN">menor difficulty</option>
+        
+          <option value='MAY'>Higher difficulty</option>
+          <option value="MEN">Lower difficulty</option>
         </select>
             </div>
 

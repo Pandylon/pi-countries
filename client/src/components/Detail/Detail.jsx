@@ -14,7 +14,7 @@ import Activity from "../Activities/ActivityCard/Activity";
 export default function Detail() {
   const { id } = useParams(); 
   const country = useSelector(state => state.country)
-
+console.log(country)
   const dispatch = useDispatch();
  
 

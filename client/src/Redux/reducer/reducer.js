@@ -5,8 +5,8 @@ const initialState = {
     
 countries: [],
 filters:[],
-country: {},
-activities:{},
+country: [],
+activities:[],
 
 
 }

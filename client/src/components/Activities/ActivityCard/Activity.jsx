@@ -19,8 +19,8 @@ export default function Activity({name,difficulty,duration,season,countries}) {
     </div>
     <div className={style.cardStats}>
       <div className={style.stats}>
-        <div className={style.value}>{difficulty}</div>
-        <div className={style.type}>Difficulty</div>
+      <div className={style.type}>Difficulty</div>
+        <div className={style.value}>{difficulty}</div>  
       </div>
 
       <div className={style.statsBorder}>
@@ -29,8 +29,9 @@ export default function Activity({name,difficulty,duration,season,countries}) {
         
       </div>
       <div className={style.stats}>
-        <div className={style.value}>{duration}hs.</div>
-        <div className={style.type}>Duration</div>
+      <div className={style.type}>Duration</div>
+      <div className={style.value}>{duration}</div>
+        
       </div>
       
     </div>
